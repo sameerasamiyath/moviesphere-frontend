@@ -1,0 +1,44 @@
+body{
+  margin:0;
+  background:#111;
+  font-family:Arial;
+}
+
+.home{
+  width:100%;
+}
+
+.content{
+  max-width:1400px;
+  margin:auto;
+  padding:20px;
+}
+
+.row{
+  margin-bottom:40px;
+}
+
+.row h2{
+  color:white;
+  margin-bottom:10px;
+}
+
+.row-posters{
+  display:flex;
+  overflow-x:auto;
+  gap:12px;
+}
+
+.row-posters::-webkit-scrollbar{
+  display:none;
+}
+
+.poster{
+  width:200px;
+  border-radius:8px;
+  transition:0.3s;
+}
+
+.poster:hover{
+  transform:scale(1.1);
+}
